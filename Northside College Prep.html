@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://www.northsideprep.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Northside College Prep</title>
+		
+		<meta http-equiv="description" content="Northside College Prep">
+		
+		
+		
+		
+		
+		
+		
+		<meta name="generator" content="SchoolSitePro">
+		
+		<link rel="icon" href="http://www.northsideprep.org/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="http://www.northsideprep.org/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./Northside College Prep_files/main-pack.css" type="text/css">
+		<script src="jquery.sticky.js"></script>
+		<link rel="stylesheet" href="./Northside College Prep_files/main.css" type="text/css">
+		<script src="./Northside College Prep_files/jquery-pack.js" type="text/javascript"></script>
+		<script src="./Northside College Prep_files/player-pack.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="./Northside College Prep_files/player-pack.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="./Northside College Prep_files/web_apps-pack.css" type="text/css">
+		
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function() {
+				 
+					$(#Announcements).toggleClass("popup");
+
+
+				};
+
+
+
+			var Common = {
+				donationsPopup : 0	
+			};
+			
+			
+				function getId(a){return document.getElementById(a)}function MM_swapImage(){var e,d=0,b,c=MM_swapImage.arguments;document.MM_sr=new Array;for(e=0;e<(c.length-2);e+=3){if((b=MM_findObj(c[e]))!=null){document.MM_sr[d++]=b;if(!b.oSrc){b.oSrc=b.src}b.src=c[e+2]}}}function P7_autoLayers(){var m,c,e,n,l=P7_autoLayers.arguments;var d=parseInt(l[0]);if(isNaN(d)){d=0}if(!document.p7setc){p7c=new Array();document.p7setc=true;for(var h=0;h<10;h++){p7c[h]=new Array()}}for(e=0;e<p7c[d].length;e++){if((m=MM_findObj(p7c[d][e]))!=null){c=(document.layers)?m:m.style;c.visibility="hidden"}}for(e=1;e<l.length;e++){if((m=MM_findObj(l[e]))!=null){c=(document.layers)?m:m.style;c.visibility="visible";n=false;for(j=0;j<p7c[d].length;j++){if(l[e]==p7c[d][j]){n=true}}if(!n){p7c[d][p7c[d].length++]=l[e]}}}}function MM_preloadImages(){var f=document;if(f.images){if(!f.MM_p){f.MM_p=new Array()}var e,c=f.MM_p.length,b=MM_preloadImages.arguments;for(e=0;e<b.length;e++){if(b[e].indexOf("#")!=0){f.MM_p[c]=new Image;f.MM_p[c++].src=b[e]}}}}function MM_swapImgRestore(){var d,b,c=document.MM_sr;for(d=0;c&&d<c.length&&(b=c[d])&&b.oSrc;d++){b.src=b.oSrc}}function MM_findObj(f,e){var c,b,a;if(!e){e=document}if((c=f.indexOf("?"))>0&&parent.frames.length){e=parent.frames[f.substring(c+1)].document;f=f.substring(0,c)}if(!(a=e[f])&&e.all){a=e.all[f]}for(b=0;!a&&b<e.forms.length;b++){a=e.forms[b][f]}for(b=0;!a&&e.layers&&b<e.layers.length;b++){a=MM_findObj(f,e.layers[b].document)}if(!a&&e.getElementById){a=e.getElementById(f)}return a}function popup(b,d,c,a){popWindow(b,d,c,a)}function popWindow(b,d,c,a){if(!startNewWindow(b,d,c,a)){alert("Ooops\n\nYou seem to have a popup blocker. Please disable it to see the page!")}}function startNewWindow(b,f,d,a){var e=document.location.host;e=e.replace(/./g,"");this.name=e+"Main";var c=window.open(b,f,"menubar=no,scrollbars=yes,width="+d+",height="+a+",resizable=1,status=yes");if(c==null){return false}return true}function openVideoWindow(a){var b=open(a,"VideoWindow","width=320,height=320,screenX=0,screenY=0");if(b=null){alert("Ooops\n\nYou seem to have a popup blocker. Please disable it to see the video!")}}function openFlashVideo(b,c,a){if(c==null||c==""){c=320}if(a==null||a==""){a=283}var d=open("/apps/videos/flash_popup.jsp?f="+b,"VideoWindow","width="+c+",height="+a+",screenX=0,screenY=0");if(d=null){alert("Ooops\n\nYou seem to have a popup blocker. Please disable it to see the video!")}}function donate(){var a=document.location.host;if(a.indexOf(":")>0){a=a.substring(0,a.indexOf(":"))}if(window.Common&&Common.donationsPopup==1){var b=startNewWindow("/apps/s/donations/index.jsp?h="+a,"SecureDonations",700,480);if(!b){alert("You seem to have a popup blocker. We will continue in the main browser window.");window.location.href="/apps/s/donations/index.jsp?h="+a}}else{window.location.href="/apps/s/donations/index.jsp?h="+a}}function getRN(){return Math.round(Math.random()*10000000)}function proxyKiller(){var f=getRN();var g=document.location.host;var b=document.getElementsByTagName("a");for(i=0;i<b.length;i++){var e=b[i].href;if(e.indexOf("javascript")<0&&e.indexOf("mailto")<0&&e.indexOf("&rn=")<0&&e.indexOf("?rn=")<0&&e.indexOf("#")<0&&(e.indexOf("http://"+g)==0||e.indexOf("https://secure.educationalnetworks.")==0)){var c=b[i].innerHTML;if(e.indexOf("?")>=0){b[i].href+="&rn="+f}else{b[i].href+="?rn="+f}if(b[i].innerHTML!=c){b[i].innerHTML=c}}}}function trimString(b){if(typeof b!="string"){return b}var a=b;var d=a.substring(0,1);while(d==" "||d=="\n"||d=="\r"||d=="\t"){a=a.substring(1,a.length);d=a.substring(0,1)}d=a.substring(a.length-1,a.length);while(d==" "||d=="\n"||d=="\r"||d=="\t"){a=a.substring(0,a.length-1);d=a.substring(a.length-1,a.length)}return a}function validatePositiveInteger(b){if(b==null||b==""){return false}var a="0123456789";for(i=0;i<b.length;i++){if(a.indexOf(b.charAt(i))<0){return false}}return true}function validateDollarAmount(c){if(c==null||c==""){return false}var b="0123456789.";var a=0;for(i=0;i<c.length;i++){if(c.charAt(i)=="."){a++}if(b.indexOf(c.charAt(i))<0){return false}}if(a>1||(a==1&&c.indexOf(".")!=c.length-3)){return false}return true}function rotatePics(c,e,a){var b=getId(c);if(b!=null){var d;do{d="/pics/"+c+"/"+Math.floor(Math.random()*e)+".jpg"}while(b.src.indexOf(d)>=0);b.src=d;setTimeout('rotatePics("'+c+'",'+e+","+a+")",a)}}function toUTF8(a){if(a==null){return a}for(i=0;i<a.length;i++){if(a.charCodeAt(i)>126){var b="&#"+a.charCodeAt(i)+";";a=a.substring(0,i)+b+a.substring(i+1,a.length)}}return a}function setCookie(b,c,a){if(a!=null&&a!=""){document.cookie=b+"="+escape(c)+"; path=/; expires="+a}else{document.cookie=b+"="+escape(c)+"; path=/;"}}function getCookie(d){var b=document.cookie.split("; ");for(var c=0;c<b.length;c++){var a=b[c].split("=");if(d==a[0]){return unescape(a[1])}}return null}function delCookie(a){document.cookie=a+"=x ; expires=Fri, 31 Dec 1999 23:59:59 GMT;"}function onEnter(e,callback){var characterCode;if(e&&e.which){characterCode=e.which}else{e=window.event;try{characterCode=e.keyCode}catch(ex){characterCode=-1}}if(characterCode==13){eval(callback);return false}else{return true}}function CommonIsLoaded(){return true};
+			
+		</script>
+		
+			<!--[if lt IE 9]>
+				<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+		
+		
+		
+	<link href="./Northside College Prep_files/css" rel="stylesheet" type="text/css"></head>
+
+
+<!-- Conditional classes for IE -->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 7]> <body class="ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <body class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <body class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<body class="">
+<!--<![endif]-->
+
+<div id="wrapper-index">
+<div class="center-bg">
+<header id="header">
+	<div class="header-inside">
+		<div class="inside"> 
+					
+<nav id="menu" class="main-nav cf">
+  <h2 class="ir">Site Navigation</h2>
+<ul id="topnav" class="cf"><li class="top-level top-1"><a href="http://www.northsideprep.org/index.jsp">Home</a></li><li class="top-level top-2"><a href="javascript:;">About</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237168&type=d">Welcome</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=240282&type=d">School Calendar</a></li><li><a href="http://www.northsideprep.org/pdf/SY14_15Calendar_Update_.pdf" target="_blank">2014-15 CPS Calendar</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239098&type=d">Block Schedule</a></li><li><a href="http://www.northsideprep.org/apps/staff/?staffCatREC_ID=2198">Administration</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237167&type=d">Mission/Ideal Graduate</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237839&type=d&pREC_ID=459896">Admissions</a></li><li><a href="http://www.northsideprep.org/pdf/AboutNCP%20Brochure.pdf" target="_blank">NCP Overview</a></li><li><a href="http://www.northsideprep.org/apps/album">Photo Albums</a></li><li><a href="http://www.northsideprep.org/apps/videos/">Videos</a></li></ul></li><li class="top-level top-3"><a href="javascript:;">Student Life</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239307&type=d">Class of 2015</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237288&type=d&pREC_ID=459763">Athletics</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=238884&type=d">Clubs</a></li><li><a href="http://www.nscollegeprep.cps.k12.il.us/ncphs/activities/clubs/scouncil/" target="_blank">Student Council</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237841&type=d">Student Support</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237286&type=d">Library</a></li><li><a href="http://www.ncphoofbeat.org/" target="_blank">Hoofbeat</a></li><li><a href="http://www.northsideprep.org/pdf/Student%20Handbook14-15%20website%20_minus%20fees_.pdf" target="_blank">Student Handbook</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237842&type=d">Service Learning</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=241210&type=d">Grants and Opportunities</a></li><li><a href="https://verify.cps.k12.il.us/StudentScheduler/Login" target="_blank">Student Scheduler</a></li></ul></li><li class="top-level top-4"><a href="javascript:;">Academics</a><ul><li><a href="http://www.northsideprep.org/apps/departments">Departments</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237302&type=d">Graduation Requirements</a></li><li><a href="http://www.northsideprep.org/pdf/Course%20Offerings.pdf" target="_blank">Course Offerings</a></li><li><a href="http://www.northsideprep.org/pdf/ProgramOfStudies.pdf" target="_blank">Program of Studies</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239311&type=d">Senior Project</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237843&type=d">21st Century Classroom</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237275&type=d&termREC_ID=&pREC_ID=499533" target="_blank">Sound Programming</a></li></ul></li><li class="top-level top-5"><a href="javascript:;">Parents</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237308&type=d&pREC_ID=459918">LSC</a></li><li><a href="http://www.northsideparentnetwork.com/" target="_blank">The Parent Network</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=261706&type=d">Parent Portal</a></li><li><a href="http://www.friendsofnorthside.org/" target="_blank">Friends of Northside</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237311&type=d">Forms</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=241210&type=d">Grants and Opportunities</a></li></ul></li><li class="top-level top-6"><a href="javascript:;">Contact</a><ul><li><a href="http://www.northsideprep.org/apps/staff">Faculty and Staff</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237844&type=d">Employment</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239081&type=d">Student Teaching</a></li><li><a href="https://0af2a15a7650f20fa3b6519e5723b5e0e9d32373.googledrive.com/host/0B5AYGizn19POM3VCWWNmVnNDV1U/index.html" target="_blank">Alumni</a></li><li><a href="http://www.northsideprep.org/apps/maps/">Location</a></li></ul></li><li class="top-level top-7" style="background: none;"><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237840&type=d">Class of 2019</a></li></ul>
+<div id="search" class="png-bg"> 
+    
+    <form id="searchbox_008260185677602921877:wg9vhkn04ca" action="http://www.northsideprep.org/search/index.jsp">
+      <input type="hidden" name="cx" value="008260185677602921877:wg9vhkn04ca">
+      <input type="hidden" name="cof" value="FORID:9">
+      <input id="search-field" name="q" type="text" value="Search" onclick="if (this.value==&#39;Search&#39;) this.value=&#39;&#39;;" onblur="if (this.value==&#39;&#39;) this.value=&#39;Search&#39;;">
+      <input id="search-img" class="png-bg" type="image" src="./Northside College Prep_files/search_button.png" name="sa" value="Search">
+    </form>
+     
+  </div>
+</nav>
+
+		<div class="titlearea">  
+			<h1><a id="header-name" class="png-bg" href="Northside College Prep.html">Northside College Prep</a></h1>
+			<a href="./Northside College Prep_files/Northside College Prep.html" class="top-logo"></a>
+			<ul class="top-links">
+				<li><a class = "topmenu" href="http://www.friendsofnorthside.org/donate.html" target="_blank">Donate</a></li>
+				<li><a class = "topmenu" href="http://www.ncphoofbeat.org/" target="_blank">Hoofbeat</a></li>
+				<li><a class = "topmenu" href="https://parent.cps.k12.il.us/pc/default.aspx" target="_blank">Parent Portal</a></li>
+				<li><a class = "topmenu" href="http://www.northsideprep.org/apps/events/index.jsp?id=0" style="border: none;">Event Calendar</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<!-- inside --> 
+</header>
+<div class="content">
+<div class="inside">
+
+
+
+
+	
+	
+	
+
+
+
+<img width="1" height="1" border="0" style="display: none;" alt="counter" src="./Northside College Prep_files/count">
+
+
+
+
+	
+
+
+<div id="index-wrapper" class="container_12">
+	<div id="index-top" class="cf">
+		<div id="slideshow">
+			<div class="slider">
+				
+					
+					
+				
+
+
+
+<div id="containerDIV-id" class="containerDIV-id-duplicateRotatorDiv" style="display: block;">
+
+	
+		
+			<div id="containerDIV-id-ir2586-slider" class="nivoSlider" style="position: relative; background: url(http://northsideprep.org/rotating_images/2586/2586_17_950_0_117.jpg) 50% 50% / cover no-repeat;"><div class="nivo-caption-wrapper"><div class="nivo-caption" style="; display: none; position: absolute; z-index: 1000;"></div></div><div class="nivo-pause" style="display: none;"></div><div class="nivo-slice" style="left: 0px; width: 950px; height: 100%; opacity: 0.0339644437708945; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) 50% 50% / cover no-repeat;" id="nivo-slice-0"></div><div class="nivo-slice" style="left: 41px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -41px 0% no-repeat;"></div><div class="nivo-slice" style="left: 82px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -82px 0% no-repeat;"></div><div class="nivo-slice" style="left: 123px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -123px 0% no-repeat;"></div><div class="nivo-slice" style="left: 164px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -164px 0% no-repeat;"></div><div class="nivo-slice" style="left: 205px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -205px 0% no-repeat;"></div><div class="nivo-slice" style="left: 246px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -246px 0% no-repeat;"></div><div class="nivo-slice" style="left: 287px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -287px 0% no-repeat;"></div><div class="nivo-slice" style="left: 328px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -328px 0% no-repeat;"></div><div class="nivo-slice" style="left: 369px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -369px 0% no-repeat;"></div><div class="nivo-slice" style="left: 410px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -410px 0% no-repeat;"></div><div class="nivo-slice" style="left: 451px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -451px 0% no-repeat;"></div><div class="nivo-slice" style="left: 492px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -492px 0% no-repeat;"></div><div class="nivo-slice" style="left: 533px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -533px 0% no-repeat;"></div><div class="nivo-slice" style="left: 574px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -574px 0% no-repeat;"></div><div class="nivo-slice" style="left: 615px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -615px 0% no-repeat;"></div><div class="nivo-slice" style="left: 656px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -656px 0% no-repeat;"></div><div class="nivo-slice" style="left: 697px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -697px 0% no-repeat;"></div><div class="nivo-slice" style="left: 738px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -738px 0% no-repeat;"></div><div class="nivo-slice" style="left: 779px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -779px 0% no-repeat;"></div><div class="nivo-slice" style="left: 820px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -820px 0% no-repeat;"></div><div class="nivo-slice" style="left: 861px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -861px 0% no-repeat;"></div><div class="nivo-slice" style="left: 902px; width: 48px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -902px 0% no-repeat;"></div></div>
+			
+
+
+			<style type="text/css">
+				#containerDIV-id-ir2586-slider { width: 100%; height: 305px; margin-left: 0.0px; }
+				#containerDIV-id-ir2586-slider .nivo-navigation a { display: block; }
+				#containerDIV-id-ir2586-slider .nivo-prevNav { left: 423px; }
+				#containerDIV-id-ir2586-slider .nivo-imgCount { left: 445px; }
+				#containerDIV-id-ir2586-slider .nivo-nextNav { right: 424px; }
+				
+			</style>
+			<script type="text/javascript">
+				imageRotatorJQuery = jQuery.noConflict();
+				imageRotatorJQuery(window).load(function() {
+					var container = document.getElementById("containerDIV-id");
+					var rotator = document.getElementById("containerDIV-id-ir2586-slider"); 
+					if(container) {
+						if(container.className!="containerDIV-id-duplicateRotatorDiv") {
+							var sliderNode = null;
+							while(container.hasChildNodes()) {
+								var lastChild = container.lastChild;
+								if(lastChild.className=="containerDIV-id-duplicateRotatorDiv") {
+									sliderNode = lastChild.cloneNode(true);
+									sliderNode.setAttribute("id", "containerDIV-id-sliderContainer");
+									sliderNode.style.display = "block";
+								}
+								container.removeChild(lastChild);
+							}
+							
+							if(sliderNode) {
+								container.appendChild(sliderNode);
+							} else if(rotator) {
+								container.appendChild(rotator);
+							}
+						}
+						container.style.display = "block";
+					}
+					
+					var _transition = 'random';
+					if(/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+						var IEVersion = new Number(RegExp.$1);
+						if(IEVersion<9) {
+							_transition = 'fade';
+						}
+					}
+					
+					
+				    curNivo = imageRotatorJQuery('#containerDIV-id-ir2586-slider').nivoSlider({
+				        transition: _transition,
+				        slices: Math.ceil("23"),
+				        boxCols: Math.ceil("15"),
+				        boxRows: Math.ceil("7"),
+				        animationSpeed: 400,
+				        rotateTime: 3500,
+				        showNavigation: false,
+				        beforeChange: function() { },
+				        afterChange: function() { },
+				        slideshowEnd: function() { },
+				        lastSlide: function() {
+				        	
+				        },
+				        afterLoad: function() { },
+				        images: [
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_11_950_0_96.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_12_950_0_7.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_17_950_0_117.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_0_1213_13_0.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_9_950_0_164.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_2_950_0_160.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_19_950_0_70.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_4_1010_0_51.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_21_950_0_183.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_14_950_0_62.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_7_950_0_22.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_18_950_0_71.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_22_950_0_195.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_10_950_0_164.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_23_950_0_162.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							},
+						
+							{ 
+								src: "http://northsideprep.org/rotating_images/2586/2586_5_950_0_75.jpg",
+								caption: {
+									"text": "",
+									"styling": ""
+								},
+								loaded: false
+							}
+						
+				        ],
+				        preloadQueueLength: 2
+				    });
+				});
+				
+				function resizeSlider_ir2586() {
+					var windowWidth = Math.max(parseFloat("950"), parseFloat(document.body.offsetWidth));
+					var contentWidth = parseFloat("");
+					if(contentWidth==0) {
+						contentWidth = windowWidth;
+					}
+					document.getElementById("containerDIV-id-ir2586-slider").style.width = windowWidth + "px";
+					var fadeSlice = document.getElementById("nivo-slice-0");
+					if(fadeSlice!=null) {
+						fadeSlice.style.width = windowWidth + "px";
+					}
+					// document.getElementById("containerDIV-id-ir2586-slider").style.height = Math.max((parseFloat("305")/parseFloat("950") * windowWidth), parseFloat("305")) + "px";
+					document.getElementById("containerDIV-id-ir2586-slider").style.marginLeft = ((contentWidth - windowWidth) / 2.0) + "px";
+				}
+				
+			</script>
+		
+	
+
+</div>
+			</div>
+		</div>
+	</div>
+	<div id="marquee-new"> </div>
+	
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+
+<script type="text/javascript" src="./Northside College Prep_files/h5m_com.js"></script>
+<script type="text/javascript">
+	var settings = {
+		'parent':'marquee-new','id':'marqueeid','width':960,'height':24,'text':'','chase':15,'fontSize':16,'fontColor':'#000','fontFamily':'tuffyregular'
+	};
+	
+	EduNet_Load(window, 'load', function(){
+		new H5Marquee().init(settings);
+	})
+</script>
+
+
+	<div id="columns" class="cf">
+		<div class="columns-inside cf">
+		<div id="left-column" class="">
+
+			<section id="events">
+				<h2><a class="png-bg" href="http://www.northsideprep.org/apps/events/">Upcoming Events</a></h2>
+				<div class="container">
+
+
+
+
+<link rel="stylesheet" href="./Northside College Prep_files/events-pack.css" type="text/css">
+
+
+
+		<table border="0" cellpadding="3" cellspacing="0" class="HPEvents autoCalendar" id="autoCalendar_0">
+					
+					
+					<tbody><tr>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+										<td id="r">
+						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1440384&d=2015-5-30&id=0">National Honor Society Car Wash</a><br>
+						
+						<b>Date: </b> 
+								Today
+							
+						
+							<br><b>Time:</b>
+							<span class="timefrom">8:00 AM</span>  - <span class="timeto">4:00 PM</span> 
+						
+						
+							<br><b>Location:</b> South Parking Lot
+						
+					</td>
+					</tr>
+					
+					
+					
+					<tr>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+										<td id="r">
+						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1505357&d=2015-5-30&id=0">Junior Spring Formal</a><br>
+						
+						<b>Date: </b> 
+								Today
+							
+						
+							<br><b>Time:</b>
+							<span class="timefrom">7:00 PM</span>  - <span class="timeto">10:00 PM</span> 
+						
+						
+							<br><b>Location:</b> Northside College Prep High School
+						
+					</td>
+					</tr>
+					
+					
+					
+					<tr>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+										<td id="r">
+						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1429319&d=2015-6-1&id=0">Cadence Concert</a><br>
+						
+						<b>Date: </b> 
+								Jun 1
+							
+						
+							<br><b>Time:</b>
+							<span class="timefrom">7:00 PM</span> 
+						
+						
+							<br><b>Location:</b> Gymnasium
+						
+					</td>
+					</tr>
+					
+					
+					
+					<tr>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+										<td id="r">
+						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1429356&d=2015-6-3&id=0">Senior Luncheon (TBD)</a><br>
+						
+						<b>Date: </b> 
+								Jun 3
+								
+						
+						
+					</td>
+					</tr>
+					
+					
+					
+					<tr>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+										<td id="r">
+						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1521186&d=2015-6-3&id=0">Alumni Sports Day #1 (schedule coming soon)</a><br>
+						
+						<b>Date: </b> 
+								Jun 3
+							
+						
+							<br><b>Time:</b>
+							<span class="timefrom">3:30 PM</span>  - <span class="timeto">7:00 PM</span> 
+						
+						
+					</td>
+					</tr>
+					 
+	
+	
+		
+			<tr class="autoCalendarLinks" id="showCalendar-0">
+				<td width="15" id="l">&nbsp;</td>
+				<td id="r">
+					<b><a href="http://www.northsideprep.org/apps/events2/view_calendar.jsp?id=0" target="_blank">Show Calendar »</a></b>
+				</td>
+			</tr>
+			<tr class="autoCalendarLinks" id="showAll-0">
+				<td width="15" id="l">&nbsp;</td>
+				<td id="r">
+					<b><a href="http://www.northsideprep.org/apps/events2/index.jsp?id=0">Show All »</a></b>
+				</td>
+			</tr>
+		
+	
+
+	</tbody></table>
+
+
+
+
+
+				</div>
+			</section>
+			<!--<a class="twitter-timeline" href="https://twitter.com/northsidecphs" data-widget-id="499952939943739392">Tweets by @northsidecphs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+		</div>
+		<div id="center-column" class="">
+			<section id="news">
+				<h2><a class="png-bg" href="http://www.northsideprep.org/apps/news/">NCP News</a></h2>
+				<div class="container">
+					
+
+
+
+
+
+
+
+	
+	<table border="0" cellpadding="3" cellspacing="0" class="HPNews">
+	
+	
+		<tbody><tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=355925&id=0">US News and World Report Ranks Northside #15 in the Nation and #1 in the State</a><br>
+				
+				
+				
+					In its recent release of America's “Best High Schools,” US News and World Report ranked Northside College Prep #15 in the U.S. and #1 in Illinois.<br>
+				
+				
+			</td>
+		</tr>
+	
+		<tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				
+				
+				
+					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5">
+					
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0"><img alt="" src="./Northside College Prep_files/tom f__thumb.jpg" class="sub" align="left" height="91"></a>
+				    
+				    <a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0" > Senior Tom Frejowski Qualifies for State Championship </a><br>
+				
+					Frejowski Will Run in the 400m Dash<br>
+				
+				
+			</td>
+		</tr>
+	
+		<tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				
+				
+				
+					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5"><br>
+					
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0"><img alt="" src="./Northside College Prep_files/tennis sectionals_thumb.jpg" style="margin: 0px 20px 5px 0px;" class="sub" align="left" height="100"></a>
+				    
+				    <a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0">Men’s Tennis Takes 3rd Place in Sectionals</a><br>
+				
+					Alejandro Ballesteros, Kirby Julian and Louie Asimow Move on to State<br>
+				
+				
+			</td>
+		</tr>
+	
+		<tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				
+				
+				
+					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5"><br>
+					
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0"><img alt="" src="./Northside College Prep_files/orlando trip_thumb.jpg" style="margin: 0px 15px 10px 0px;" class="sub" align="left" height="60"></a>
+					<a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0">Northside Prep Orchestra and Choir Recipients of 4 Awards at Orlando Heritage Music Festival</a><br>
+				
+				
+			</td>
+		</tr>
+	
+	
+		<tr id="showAll-0">
+			<td width="15" id="l">&nbsp;</td>
+			<td id="r"><b><a href="http://www.northsideprep.org/apps/news/index.jsp?id=0">Show All »</a></b><br></td>
+		</tr>
+	
+	</tbody></table>
+	
+
+
+
+				</div>
+			</section>
+		</div>
+
+		<section id="anouncements">
+			<h2><a class="png-bg" href="http://www.northsideprep.org/apps/news/index.jsp?id=2">Announcements</a></h2>
+	<table border="0" cellpadding="3" cellspacing="0" class="HPNews">
+	
+	
+		<tbody><tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=355689&id=2">Incoming Freshmen: Details for World Language Placement Test</a><br>
+				
+				
+				
+					Click here for testing times.<br>
+				
+				
+			</td>
+		</tr>
+	
+		<tr>
+			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+			<td id="r">
+				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=347800&id=2">Chess Camp Registration</a><br>
+				
+				
+				
+					Chess Camp for 6 - 13 year olds from June 22nd - 26th.<br>
+				
+				
+			</td>
+		</tr>
+	
+	
+		<tr id="showAll-2">
+			<td width="15" id="l">&nbsp;</td>
+			<td id="r"><b><a href="http://www.northsideprep.org/apps/news/index.jsp?id=2">Show All »</a></b><br></td>
+		</tr>
+	
+	</tbody></table>
+	
+
+
+
+			</section>
+
+		<div id="right-column" class="">
+
+	
+	<link rel="stylesheet" href="./Northside College Prep_files/featured_20150414.css" type="text/css">
+	
+	
+	
+	<div class="HPFeaturedAlbums ">
+		<h2 onclick="document.location.href=&#39;/apps/album/&#39;">Featured Albums</h2>
+		
+		<div class="featuredAlbums">
+			<ul>
+				
+			
+				
+				
+				<li class="featuredAlbum" onclick="document.location.href=&#39;/apps/album/index.jsp#albumREC_ID=75766&#39;" style="width:240px;height:150px">
+					
+					
+					
+						<img src="./Northside College Prep_files/56465507_f_240x150.jpg">
+					
+					
+					
+					<h3><span>NCP Facilites</span></h3>
+				</li>
+				
+				
+				
+				<li class="featuredAlbum" onclick="document.location.href=&#39;/apps/album/index.jsp#albumREC_ID=75754&#39;" style="width:240px;height:150px">
+					
+					
+					
+						<img src="./Northside College Prep_files/83324866_f_240x150.jpg">
+					
+					
+					
+					<h3><span>Athletics Gallery</span></h3>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</div>
+	
+			
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+	
+		
+
+
+</div>
+<!-- content-inner -->
+
+</div>
+<!-- content -->
+
+<footer id="footer">
+	<div class="footer-inside">
+	<div class="inside">
+		<div id="address-left"> 5501 N. Kedzie Ave.<br>
+			Chicago, IL 60625 </div>
+		<div id="address-right"><strong> Phone: </strong>(773) 534-3954<br>
+			<strong>Fax:</strong> (773) 534-3964 </div>
+		<a href="./Northside College Prep_files/Northside College Prep.html" id="name" class="png-bg"></a>
+		<a id="district-logo" class="ir" href="http://www.cps.edu/Pages/home.aspx" target="_blank">#</a> <a id="edunet" class="ir png-bg" href="http://www.educationalnetworks.net/" target="_blank">powered by Educational Networks</a> </div>
+		</div>
+</footer>
+</div>
+</div>
+<!-- wrapper --> 
+<!--[if lt IE 7 ]>
+    <script src="/shared/js/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png-bg, .overlaycontainer");</script>
+  <![endif]--> 
+<script type="text/javascript" src="./Northside College Prep_files/jquery.min.js"></script> 
+<script type="text/javascript" src="./Northside College Prep_files/jquery-ui.min.js"></script> 
+<script src="./Northside College Prep_files/scripts.js"></script>
+
+	
+	
+	<script type="text/javascript">
+		//proxyKiller();
+	</script>
+	
+ 
+
+
+
+
+
+<!-- 62ms -->
+
+
+
+
+</body></html>
