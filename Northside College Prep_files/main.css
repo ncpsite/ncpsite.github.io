@@ -182,7 +182,6 @@ body, #topnav li:hover ul li a, #topnav li.over ul li a, #address {
 	width: 920px;
 	padding: 20px;
 	line-height: 20px;
-	position: relative;
 	border-top:1px solid #dfdfdf;
 }
 .content {
@@ -191,7 +190,8 @@ body, #topnav li:hover ul li a, #topnav li.over ul li a, #address {
 	margin: 0 auto;
 	padding: 0 0 0px 0;
 	margin-top: 0px;
-	position: relative;
+	position: absolute;
+	left: 70px;
 }
 .content .inside {
 	position: relative;
@@ -396,10 +396,9 @@ body, #topnav li:hover ul li a, #topnav li.over ul li a, #address {
 	position: absolute;
 	left: 0px;
 	top: 30px;
-	background: url(../pics/name.png) no-repeat;
+	background: url('Northside College Prep_files/ncptitle.png') no-repeat;
 	height:37px;
 	width: 520px;
-	text-indent: -9999px;
 }
 #header .logo {
 	width: 162px;
@@ -428,7 +427,7 @@ body, #topnav li:hover ul li a, #topnav li.over ul li a, #address {
 	padding:0;
 }
 .top-links li{
-	float:left;
+	float:right;
 	list-style:none;
 }
 .top-links li a{
@@ -463,7 +462,6 @@ body, #topnav li:hover ul li a, #topnav li.over ul li a, #address {
 
 /* Navigation menu */
 #menu {
-	width: 820px;
 	height: 45px;
 	padding: 0px 130px 0 0;
 	z-index: 99999;
@@ -1400,5 +1398,89 @@ table#administration span.name { font-weight:bold; font-size:14px; }
 #marquee-new {height:8px !important;}
 .clubBOLD {font-weight:600;}
 
+section#events{
+	line-height: 22px !important;
+	padding-top: 10px
+}
 
+section#news{
+	line-height: 24px;
+}
+
+.line1{
+	margin-bottom: 20px
+}
+
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#header-name{
+	text-decoration: none;
+	font-family: 'Oswald';
+	font-weight: lighter;
+	font-size: 34px;
+	color:maroon;
+
+}
+
+.topmenu:hover{
+    font-weight:bold;
+}
+
+.sticky{
+	position:fixed;
+	top:0;
+}
+
+.main-nav{
+	position: fixed !important;
+	top:0px !important;
+	padding-left: 8px;
+	left:9%;
+	width: 65	%;
+}
+
+#anouncements{
+	position:fixed;
+	top: 20%;
+	width: 13%;
+	right:4%;
+}
+
+.popup{
+	width: 30%;
+	left: 35%;
+	right:35%;
+	z-index: 99999999;
+	top:35%;
+	background-color: maroon;
+}
+
+.content{
+	position:absolute;
+    top:50px;
+    left: 0;
+}
+
+.titlearea{
+	position: absolute;
+	top: 12px;
+	margin-top: 10px;
+	left: 12%;
+	width: 100%;
+	height: 20%	;
+}
+
+#header-name{
+	position: absolute;
+	left:0;
+}
+
+.inside{
+	margin-left:40px;
+}
 

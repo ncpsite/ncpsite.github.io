@@ -16,14 +16,25 @@
 		<link rel="icon" href="http://www.northsideprep.org/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="http://www.northsideprep.org/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="./Northside College Prep_files/main-pack.css" type="text/css">
-		
-			<link rel="stylesheet" href="./Northside College Prep_files/main.css" type="text/css">
-		
-		
-			<link rel="stylesheet" href="./Northside College Prep_files/web_apps-pack.css" type="text/css">
+		<script src="jquery.sticky.js"></script>
+		<link rel="stylesheet" href="./Northside College Prep_files/main.css" type="text/css">
+		<script src="./Northside College Prep_files/jquery-pack.js" type="text/javascript"></script>
+		<script src="./Northside College Prep_files/player-pack.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="./Northside College Prep_files/player-pack.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="./Northside College Prep_files/web_apps-pack.css" type="text/css">
 		
 		
 		<script type="text/javascript">
+			
+			$(document).ready(function() {
+				 
+					$(#Announcements).toggleClass("popup");
+
+
+				};
+
+
+
 			var Common = {
 				donationsPopup : 0	
 			};
@@ -40,12 +51,6 @@
 		
 		
 	<link href="./Northside College Prep_files/css" rel="stylesheet" type="text/css"></head>
-	
-	
-	
-	
-		
-
 
 
 <!-- Conditional classes for IE -->
@@ -62,17 +67,11 @@
 <header id="header">
 	<div class="header-inside">
 		<div class="inside"> 
-			<h1><a id="header-name" class="png-bg" href="./Northside College Prep_files/Northside College Prep.html">Northside College Prep</a></h1>
-			
-<nav id="menu" class="cf">
+					
+<nav id="menu" class="main-nav cf">
   <h2 class="ir">Site Navigation</h2>
-  
-
-
-
 <ul id="topnav" class="cf"><li class="top-level top-1"><a href="http://www.northsideprep.org/index.jsp">Home</a></li><li class="top-level top-2"><a href="javascript:;">About</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237168&type=d">Welcome</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=240282&type=d">School Calendar</a></li><li><a href="http://www.northsideprep.org/pdf/SY14_15Calendar_Update_.pdf" target="_blank">2014-15 CPS Calendar</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239098&type=d">Block Schedule</a></li><li><a href="http://www.northsideprep.org/apps/staff/?staffCatREC_ID=2198">Administration</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237167&type=d">Mission/Ideal Graduate</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237839&type=d&pREC_ID=459896">Admissions</a></li><li><a href="http://www.northsideprep.org/pdf/AboutNCP%20Brochure.pdf" target="_blank">NCP Overview</a></li><li><a href="http://www.northsideprep.org/apps/album">Photo Albums</a></li><li><a href="http://www.northsideprep.org/apps/videos/">Videos</a></li></ul></li><li class="top-level top-3"><a href="javascript:;">Student Life</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239307&type=d">Class of 2015</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237288&type=d&pREC_ID=459763">Athletics</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=238884&type=d">Clubs</a></li><li><a href="http://www.nscollegeprep.cps.k12.il.us/ncphs/activities/clubs/scouncil/" target="_blank">Student Council</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237841&type=d">Student Support</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237286&type=d">Library</a></li><li><a href="http://www.ncphoofbeat.org/" target="_blank">Hoofbeat</a></li><li><a href="http://www.northsideprep.org/pdf/Student%20Handbook14-15%20website%20_minus%20fees_.pdf" target="_blank">Student Handbook</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237842&type=d">Service Learning</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=241210&type=d">Grants and Opportunities</a></li><li><a href="https://verify.cps.k12.il.us/StudentScheduler/Login" target="_blank">Student Scheduler</a></li></ul></li><li class="top-level top-4"><a href="javascript:;">Academics</a><ul><li><a href="http://www.northsideprep.org/apps/departments">Departments</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237302&type=d">Graduation Requirements</a></li><li><a href="http://www.northsideprep.org/pdf/Course%20Offerings.pdf" target="_blank">Course Offerings</a></li><li><a href="http://www.northsideprep.org/pdf/ProgramOfStudies.pdf" target="_blank">Program of Studies</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239311&type=d">Senior Project</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237843&type=d">21st Century Classroom</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237275&type=d&termREC_ID=&pREC_ID=499533" target="_blank">Sound Programming</a></li></ul></li><li class="top-level top-5"><a href="javascript:;">Parents</a><ul><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237308&type=d&pREC_ID=459918">LSC</a></li><li><a href="http://www.northsideparentnetwork.com/" target="_blank">The Parent Network</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=261706&type=d">Parent Portal</a></li><li><a href="http://www.friendsofnorthside.org/" target="_blank">Friends of Northside</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237311&type=d">Forms</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=241210&type=d">Grants and Opportunities</a></li></ul></li><li class="top-level top-6"><a href="javascript:;">Contact</a><ul><li><a href="http://www.northsideprep.org/apps/staff">Faculty and Staff</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237844&type=d">Employment</a></li><li><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=239081&type=d">Student Teaching</a></li><li><a href="https://0af2a15a7650f20fa3b6519e5723b5e0e9d32373.googledrive.com/host/0B5AYGizn19POM3VCWWNmVnNDV1U/index.html" target="_blank">Alumni</a></li><li><a href="http://www.northsideprep.org/apps/maps/">Location</a></li></ul></li><li class="top-level top-7" style="background: none;"><a href="http://www.northsideprep.org/apps/pages/index.jsp?uREC_ID=237840&type=d">Class of 2019</a></li></ul>
-
-  <div id="search" class="png-bg"> 
+<div id="search" class="png-bg"> 
     
     <form id="searchbox_008260185677602921877:wg9vhkn04ca" action="http://www.northsideprep.org/search/index.jsp">
       <input type="hidden" name="cx" value="008260185677602921877:wg9vhkn04ca">
@@ -84,23 +83,16 @@
   </div>
 </nav>
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
+		<div class="titlearea">  
+			<h1><a id="header-name" class="png-bg" href="Northside College Prep.html">Northside College Prep</a></h1>
 			<a href="./Northside College Prep_files/Northside College Prep.html" class="top-logo"></a>
 			<ul class="top-links">
-				<li><a href="http://www.friendsofnorthside.org/donate.html" target="_blank">Donate</a></li>
-				<li><a href="http://www.ncphoofbeat.org/" target="_blank">Hoofbeat</a></li>
-				<li><a href="https://parent.cps.k12.il.us/pc/default.aspx" target="_blank">Parent Portal</a></li>
-				<li><a href="http://www.northsideprep.org/apps/events/index.jsp?id=0" style="border: none;">Event Calendar</a></li>
+				<li><a class = "topmenu" href="http://www.friendsofnorthside.org/donate.html" target="_blank">Donate</a></li>
+				<li><a class = "topmenu" href="http://www.ncphoofbeat.org/" target="_blank">Hoofbeat</a></li>
+				<li><a class = "topmenu" href="https://parent.cps.k12.il.us/pc/default.aspx" target="_blank">Parent Portal</a></li>
+				<li><a class = "topmenu" href="http://www.northsideprep.org/apps/events/index.jsp?id=0" style="border: none;">Event Calendar</a></li>
 			</ul>
+		</div>
 		</div>
 	</div>
 	<!-- inside --> 
@@ -142,12 +134,10 @@
 		
 			<div id="containerDIV-id-ir2586-slider" class="nivoSlider" style="position: relative; background: url(http://northsideprep.org/rotating_images/2586/2586_17_950_0_117.jpg) 50% 50% / cover no-repeat;"><div class="nivo-caption-wrapper"><div class="nivo-caption" style="; display: none; position: absolute; z-index: 1000;"></div></div><div class="nivo-pause" style="display: none;"></div><div class="nivo-slice" style="left: 0px; width: 950px; height: 100%; opacity: 0.0339644437708945; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) 50% 50% / cover no-repeat;" id="nivo-slice-0"></div><div class="nivo-slice" style="left: 41px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -41px 0% no-repeat;"></div><div class="nivo-slice" style="left: 82px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -82px 0% no-repeat;"></div><div class="nivo-slice" style="left: 123px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -123px 0% no-repeat;"></div><div class="nivo-slice" style="left: 164px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -164px 0% no-repeat;"></div><div class="nivo-slice" style="left: 205px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -205px 0% no-repeat;"></div><div class="nivo-slice" style="left: 246px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -246px 0% no-repeat;"></div><div class="nivo-slice" style="left: 287px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -287px 0% no-repeat;"></div><div class="nivo-slice" style="left: 328px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -328px 0% no-repeat;"></div><div class="nivo-slice" style="left: 369px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -369px 0% no-repeat;"></div><div class="nivo-slice" style="left: 410px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -410px 0% no-repeat;"></div><div class="nivo-slice" style="left: 451px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -451px 0% no-repeat;"></div><div class="nivo-slice" style="left: 492px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -492px 0% no-repeat;"></div><div class="nivo-slice" style="left: 533px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -533px 0% no-repeat;"></div><div class="nivo-slice" style="left: 574px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -574px 0% no-repeat;"></div><div class="nivo-slice" style="left: 615px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -615px 0% no-repeat;"></div><div class="nivo-slice" style="left: 656px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -656px 0% no-repeat;"></div><div class="nivo-slice" style="left: 697px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -697px 0% no-repeat;"></div><div class="nivo-slice" style="left: 738px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -738px 0% no-repeat;"></div><div class="nivo-slice" style="left: 779px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -779px 0% no-repeat;"></div><div class="nivo-slice" style="left: 820px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -820px 0% no-repeat;"></div><div class="nivo-slice" style="left: 861px; width: 41px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -861px 0% no-repeat;"></div><div class="nivo-slice" style="left: 902px; width: 48px; height: 0px; opacity: 0; background: url(http://northsideprep.org/rotating_images/2586/2586_20_950_0_313.jpg) -902px 0% no-repeat;"></div></div>
 			
-			<script src="./Northside College Prep_files/jquery-pack.js" type="text/javascript"></script>
-			<script src="./Northside College Prep_files/player-pack.js" type="text/javascript"></script>
-			<link rel="stylesheet" href="./Northside College Prep_files/player-pack.css" type="text/css" media="screen">
+
 
 			<style type="text/css">
-				#containerDIV-id-ir2586-slider { width: 950px; height: 305px; margin-left: 0.0px; }
+				#containerDIV-id-ir2586-slider { width: 100%; height: 305px; margin-left: 0.0px; }
 				#containerDIV-id-ir2586-slider .nivo-navigation a { display: block; }
 				#containerDIV-id-ir2586-slider .nivo-prevNav { left: 423px; }
 				#containerDIV-id-ir2586-slider .nivo-imgCount { left: 445px; }
@@ -195,8 +185,8 @@
 				        slices: Math.ceil("23"),
 				        boxCols: Math.ceil("15"),
 				        boxRows: Math.ceil("7"),
-				        animationSpeed: 500,
-				        rotateTime: 5000,
+				        animationSpeed: 400,
+				        rotateTime: 3500,
 				        showNavigation: false,
 				        beforeChange: function() { },
 				        afterChange: function() { },
@@ -417,40 +407,10 @@
 	<div id="columns" class="cf">
 		<div class="columns-inside cf">
 		<div id="left-column" class="">
+
 			<section id="events">
 				<h2><a class="png-bg" href="http://www.northsideprep.org/apps/events/">Upcoming Events</a></h2>
 				<div class="container">
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -463,7 +423,7 @@
 					
 					
 					<tbody><tr>
-					<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 										<td id="r">
 						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1440384&d=2015-5-30&id=0">National Honor Society Car Wash</a><br>
 						
@@ -483,7 +443,7 @@
 					
 					
 					<tr>
-					<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 										<td id="r">
 						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1505357&d=2015-5-30&id=0">Junior Spring Formal</a><br>
 						
@@ -503,7 +463,7 @@
 					
 					
 					<tr>
-					<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 										<td id="r">
 						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1429319&d=2015-6-1&id=0">Cadence Concert</a><br>
 						
@@ -523,13 +483,13 @@
 					
 					
 					<tr>
-					<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 										<td id="r">
 						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1429356&d=2015-6-3&id=0">Senior Luncheon (TBD)</a><br>
 						
 						<b>Date: </b> 
 								Jun 3
-							
+								
 						
 						
 					</td>
@@ -538,7 +498,7 @@
 					
 					
 					<tr>
-					<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
+					<td class="calsec" width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 										<td id="r">
 						<a href="http://www.northsideprep.org/apps/events2/event.jsp?eREC_ID=1521186&d=2015-6-3&id=0">Alumni Sports Day #1 (schedule coming soon)</a><br>
 						
@@ -579,7 +539,6 @@
 
 				</div>
 			</section>
-			<a href="https://twitter.com/northsidecphs" target="_blank"><img src="./Northside College Prep_files/twet.png"></a>
 			<!--<a class="twitter-timeline" href="https://twitter.com/northsidecphs" data-widget-id="499952939943739392">Tweets by @northsidecphs</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
 		</div>
@@ -615,13 +574,14 @@
 		<tr>
 			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 			<td id="r">
-				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0">Senior Tom Frejowski Qualifies for State Championship </a><br>
 				
 				
-					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5"><br>
+				
+					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5">
 					
-					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0"><img alt="" src="./Northside College Prep_files/tom f__thumb.jpg" style="margin: 0px 5px 5px 0px;" class="sub" align="left" height="75"></a>
-				
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0"><img alt="" src="./Northside College Prep_files/tom f__thumb.jpg" class="sub" align="left" height="91"></a>
+				    
+				    <a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358139&id=0" > Senior Tom Frejowski Qualifies for State Championship </a><br>
 				
 					Frejowski Will Run in the 400m Dash<br>
 				
@@ -632,13 +592,14 @@
 		<tr>
 			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 			<td id="r">
-				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0">Men’s Tennis Takes 3rd Place in Sectionals</a><br>
+				
 				
 				
 					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5"><br>
 					
-					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0"><img alt="" src="./Northside College Prep_files/tennis sectionals_thumb.jpg" style="margin: 0px 5px 5px 0px;" class="sub" align="left" height="75"></a>
-				
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0"><img alt="" src="./Northside College Prep_files/tennis sectionals_thumb.jpg" style="margin: 0px 20px 5px 0px;" class="sub" align="left" height="100"></a>
+				    
+				    <a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=358012&id=0">Men’s Tennis Takes 3rd Place in Sectionals</a><br>
 				
 					Alejandro Ballesteros, Kirby Julian and Louie Asimow Move on to State<br>
 				
@@ -649,13 +610,13 @@
 		<tr>
 			<td width="15" align="right" valign="top" id="l"><img alt="" src="./Northside College Prep_files/bullet_arrow.gif" vspace="1"></td>
 			<td id="r">
-				<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0">Northside Prep Orchestra and Choir Recipients of 4 Awards at Orlando Heritage Music Festival</a><br>
+				
 				
 				
 					<img alt="" src="./Northside College Prep_files/spacer.gif" width="1" height="5"><br>
 					
-					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0"><img alt="" src="./Northside College Prep_files/orlando trip_thumb.jpg" style="margin: 0px 5px 5px 0px;" class="sub" align="left" height="75"></a>
-				
+					<a href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0"><img alt="" src="./Northside College Prep_files/orlando trip_thumb.jpg" style="margin: 0px 15px 10px 0px;" class="sub" align="left" height="60"></a>
+					<a class = "line1" href="http://www.northsideprep.org/apps/news/show_news.jsp?REC_ID=351474&id=0">Northside Prep Orchestra and Choir Recipients of 4 Awards at Orlando Heritage Music Festival</a><br>
 				
 				
 			</td>
@@ -675,20 +636,9 @@
 				</div>
 			</section>
 		</div>
-		<div id="right-column" class="">
-			<section id="anouncements">
+
+		<section id="anouncements">
 			<h2><a class="png-bg" href="http://www.northsideprep.org/apps/news/index.jsp?id=2">Announcements</a></h2>
-			
-				
-			
-
-
-
-
-
-
-
-	
 	<table border="0" cellpadding="3" cellspacing="0" class="HPNews">
 	
 	
@@ -730,27 +680,8 @@
 
 
 			</section>
-			
-				
-				
-				
-				
-				
-			
 
-
-
-
-
-
-
-
-
-
-
-
-
-	
+		<div id="right-column" class="">
 
 	
 	<link rel="stylesheet" href="./Northside College Prep_files/featured_20150414.css" type="text/css">
